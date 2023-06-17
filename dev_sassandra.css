@@ -1,0 +1,37 @@
+#home{
+    background: linear-gradient(rgba(0,0,0,0.1),#333), url("http://localhost/mairie/images/bureau.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+  
+}
+
+
+#administration> div, #dev > div{
+    display: flex;
+    gap: 3em;
+    justify-content: space-around;
+    padding: 3em;
+}
+span{
+    font-weight: bold;
+}
+
+#dev li{
+    font-size: 1.5em;
+}
+#dev ul{
+    text-indent: 2em;
+}
+
+#dev h3 {
+    margin: 2em;
+}
+h2 {
+    text-align: center;
+}
+
+
+
+
+
